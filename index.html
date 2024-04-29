@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocery List</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Grocery List</h1>
+    <div class="input-group mb-3">
+      <input type="text" id="itemInput" class="form-control" placeholder="Enter item">
+      <div class="input-group-append">
+        <button class="btn btn-primary" id="addItemBtn">Add Item</button>
+      </div>
+    </div>
+    <ul id="groceryList" class="list-group">
+      <!-- List items will be dynamically added here -->
+    </ul>
+    <button class="btn btn-danger mt-3" id="clearListBtn">Clear List</button>
+  </div>
+
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
